@@ -23,6 +23,8 @@ class Message:
             "08-16 14:41:22.775  2738  2968 I ReactNativeJS: JS->N : RKUIManager.measure([14,15])"
         and returns an object parsed by it.
         """
+
+        # Splitting without unnecessary tabs and spaces
         details = [x for x in line.split(" ") if x != '']
 
         try:
@@ -86,8 +88,5 @@ class Message:
         return [message for message in messages if message.bridge_type == bridge_type]
 
     @staticmethod
-    def filter_by_called_fnc(messages, called_func):
+    def filter_by_called_func(messages, called_func):
         return [message for message in messages if message.called_func == called_func]
-
-
-

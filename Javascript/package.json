@@ -1,0 +1,19 @@
+{
+  "name": "web-react-bridge-sniffer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Etgar Shmueli",
+  "license": "MIT",
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "fs": "0.0.2",
+    "moment": "^2.14.1",
+    "raw-loader": "^0.5.1",
+    "text-loader": "0.0.1",
+    "transform-loader": "^0.2.3"
+  }
+}
