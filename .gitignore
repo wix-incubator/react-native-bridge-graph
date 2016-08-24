@@ -88,6 +88,6 @@ ENV/
 # Rope project settings
 .ropeproject
 
-*.html
-
 log.txt
+
+Python/*.html
