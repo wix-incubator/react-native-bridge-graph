@@ -1,7 +1,9 @@
 # React Native Bridge Graph
-This Python project will to be a tool to help in reading the React-Bridge.
+This project will to be a tool to help in reading the React-Bridge.
 
-## Instructions:
+##Python
+
+### Instructions:
 * Install Python
 * Open your Terminal and move to this project's directory
 * run `pip install -r requirements.txt`
